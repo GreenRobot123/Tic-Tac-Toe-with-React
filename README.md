@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tic-Tac-Toe Website with React
 
-## Available Scripts
+### Motivation
 
-In the project directory, you can run:
+I embarked on this project to delve into React, a versatile framework ideal for various applications and websites. Following the tutorial on the React website ([Tutorial Link](https://react.dev/learn/tutorial-tic-tac-toe)), I sought to master the fundamentals of React development.
 
-### `npm start`
+### Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project materialized as a Tic-Tac-Toe game that not only lets players engage in the classic game but also revisit the game's history. Leveraging the create-react-app module streamlined the development process.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](./Tic-Tac-Toe%20Example.png)
 
-### `npm test`
+### Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Rendering a Board of Squares**
 
-### `npm run build`
+   - A 3x3 grid of squares was rendered, with each square defined as a component. These components were then employed to construct the game board in the Game class.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Updating the Square when Clicked**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Ensured that when a square is clicked, it updates with either "X" or "O" depending on the turn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Updates Current Turn when Square is Updated**
 
-### `npm run eject`
+   - Implemented functionality to update the current player with each turn.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Calculating Winner**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Incorporated a winner calculation feature based on matching elements in a line. The game concludes when a winner is detected.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **History**
+   - Enabled players to navigate the game's history, facilitating a review or the option to replay moves.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Learnings
 
-## Learn More
+The project was an invaluable learning experience, providing insights into the effective use of React's props, components, and the overall framework.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Future Improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+While the core functionality is robust, the website's aesthetics could be enhanced for a more engaging user experience.
 
-### Code Splitting
+### How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Prerequisites:**
 
-### Analyzing the Bundle Size
+- Node.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Commands:**
 
-### Making a Progressive Web App
+- `npm start`: Launches the app in development mode at http://localhost:3000, with automatic page reloading.
+- `npm test`: Initiates the test runner in interactive watch mode.
+- `npm run build`: Builds the app for production, optimizing and bundling React.
+- `npm run eject`: A one-way operation offering full control over configurations for advanced customization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Remember, ejecting is optional, and the default features suffice for small to medium deployments.
 
-### Advanced Configuration
+### Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project was crafted with guidance from the excellent tutorial provided by the React dev team ([Tutorial Link](https://react.dev/learn/tutorial-tic-tac-toe)).
 
-### Deployment
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
