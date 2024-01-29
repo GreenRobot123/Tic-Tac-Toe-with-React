@@ -47,6 +47,7 @@ While the core functionality is robust, the website's aesthetics could be enhanc
 
 - Node.js
 
+Run in Terminal of File any of:
 **Commands:**
 
 - `npm start`: Launches the app in development mode at http://localhost:3000, with automatic page reloading.
